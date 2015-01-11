@@ -1,0 +1,4 @@
+$(OBJDIR)/ex7.o: src/ex7.c src/lint.h src/mshell.h src/bip.h
+$(OBJDIR)/bip.o: src/bip.c src/lint.h src/mshell.h src/splitline.h src/bip.h
+$(OBJDIR)/splitline.o: src/splitline.c src/mshell.h src/splitline.h
+$(OBJDIR)/mshell.o: src/mshell.c src/lint.h src/mshell.h

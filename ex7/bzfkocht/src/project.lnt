@@ -1,0 +1,39 @@
+-passes(3)
++fsc // strings are const
+-ffc // Function takes Custody flag -> off
+-sl8 // size of long = 8
+-A(C99)
+-hFb^3
+-width(132,4)
+-"format=%f:%l: %t %n: %m"
+-Ilint
+-I../posix
+//-I/usr/include
++libh(lint.h)
+-function(exit,_assert)
+-function(exit,__assert)
+-function(exit,__assertfail)
+-function(exit,__assert_fail)
+-function(exit,zimpl_exit)
+-esym(534,close,creat,fclose,fprintf,fputc,fflush,fsync)
+-esym(534,fputs,fscanf,fseek,fwrite,lseek,memcpy,memmove,memset)
+-esym(534,printf,puts,scanf,sprintf,sscanf,strcat,strcpy)
+-esym(534,strncat,strncpy,unlink,write,regerror,putchar)
+-esym(755,mem_used,mem_check_all,mem_display,mem_hide)
+//
+-e592 // Non-literal format specifier used without arguments
+//-e749 // local enumeration constant not referenced
+//-e758 // Operator followed by operator is confusing
+//-e766 // Include of header file not used
+-e788 // enum constant not used within defaulted switch
+//-e801 // Use of goto is deprecated
+//-e826 // Suspicious pointer-to-pointer conversion 
+-e834 // Operator followed by operator is confusing.  Use parentheses
+//
+-efile(766,mshell.h)
+-efile(537,stdarg.h,float.h,alloca.h,math.h,stdio.h)
+-esym(666,assert)
+-strong(AzJzX,READ_MODE,BIP,Sense,Verbosity)
+-strong(AJXbl,bool)
+-e793 //  ANSI limit of 1024 'macros in module' exceeded
+-esym(818,argv)

@@ -1,0 +1,16 @@
+\form#0:\[ Ax\leq b, x\in\{0,1\} \]
+\form#1:$A$
+\form#2:$m\times n$
+\form#3:$b$
+\form#4:$m$
+\form#5:$m,n\leq 32$
+\form#6:\[ \begin{eqnarray*} 2 x_1 + 3 x_2 + 5 x_3 - 4 x_4 &\leq& 8\\ 3 x_1 - 6 x_2 + 8 x_4 & \leq & 10\\ x_3 + x_4 &\leq& 1 \end{eqnarray*} \]
+\form#7:$ A $
+\form#8:$ m\times n $
+\form#9:$ b $
+\form#10:$ m $
+\form#11:$ m,n\leq 32 $
+\form#12:\begin{eqnarray*} 2 x_1 + 3 x_2 + 5 x_3 - 4 x_4 &\leq& 8\\ 3 x_1 - 6 x_2 + 8 x_4 & \leq & 10\\ x_3 + x_4 &\leq& 1 \end{eqnarray*}
+\form#13:$ \leq $
+\form#14:$ \geq $
+\form#15:$ = $
